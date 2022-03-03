@@ -16,14 +16,14 @@ print('We see the letter T', numberofTs, 'times!')
 
 file.close()
 
-print('\nThe percentage of As in relation to the entire thermophile file is: ', numberofAs /
-      (numberofCs + numberofGs + numberofTs + numberofAs) * 100, )
+print('\nThe percentage of As in relation to the entire thermophile file is: ' + str(round(numberofAs /
+      (numberofCs + numberofGs + numberofTs + numberofAs) * 100, 2)))
 
-print('\nThe percentage of Cs in relation to the entire thermophile file is: ', numberofCs /
-      (numberofGs + numberofAs + numberofTs + numberofCs) * 100, )
+print('\nThe percentage of Cs in relation to the entire thermophile file is: ' + str(round(numberofCs /
+      (numberofGs + numberofAs + numberofTs + numberofCs) * 100, 2)))
 
-print('\nThe percentage of Gs in relation to the entire thermophile file is: ', numberofGs /
-      (numberofCs + numberofAs + numberofTs + numberofGs) * 100, )
+print('\nThe percentage of Gs in relation to the entire thermophile file is: ' + str(round(numberofGs /
+      (numberofCs + numberofAs + numberofTs + numberofGs) * 100, 2)))
 
-print('\nThe percentage of Ts in relation to the entire thermophile file is: ', numberofTs /
-      (numberofCs + numberofAs + numberofGs + numberofTs) * 100, )
+print('\nThe percentage of Ts in relation to the entire thermophile file is: ' + str(round(numberofTs /
+      (numberofCs + numberofAs + numberofGs + numberofTs) * 100, 2)))
