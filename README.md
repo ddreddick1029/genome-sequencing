@@ -4,6 +4,6 @@ This repository shows the reading of a specified file and calculating the percen
 We will utilize Python to:
 
 - count the number of the nucleotides throughout the files
-- count the number of each nucleotide line by line
+- count the number of each nucleotide line by line (did not complete, would construct code but would only print 10k lines)
 - find the percentage of appearances of each nucleotide
 - construct a bar chart to illustrate the results
